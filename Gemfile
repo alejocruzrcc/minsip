@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.1'
+ruby '2.6.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -18,8 +18,6 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -58,3 +56,51 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Motor SIP
+gem 'sip', git: "https://github.com/pasosdeJesus/sip.git"
+
+# Anexos
+gem 'paperclip'
+
+# Formularios
+gem 'simple_form'
+
+# Control de acceso
+gem 'cancancan'
+
+# Autenticación
+gem 'devise'
+
+# Localización e Internacionalización
+gem 'devise-i18n'
+
+# Localización e Internacionalización
+gem 'rails-i18n'
+
+# Pagina listados
+gem 'will_paginate'
+
+# Entorno CSS Bootstrap
+gem 'twitter-bootstrap-rails'
+
+# Iconos de FontAwesome
+gem 'font-awesome-rails'
+
+# Usamos jquery
+gem 'jquery-ui-rails'
+
+# Control para elegir fechas
+gem 'bootstrap-datepicker-rails'
+
+# Localiación e internacionalización
+gem 'twitter_cldr'
+
+# Campos de selección más funcionales
+gem 'chosen-rails'
+
+# Usamos jquery
+gem 'jquery-rails'
+
+# Seguir enlaces más rápido. Ver: https://github.com/rails/turbolinks
+gem "turbolinks"

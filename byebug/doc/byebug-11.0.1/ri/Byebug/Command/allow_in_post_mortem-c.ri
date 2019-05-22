@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"allow_in_post_mortem:ETI"*Byebug::Command::allow_in_post_mortem;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"=Special methods to allow command filtering in processors;T:
+@fileI"lib/byebug/command.rb;T:0@omit_headings_from_table_of_contents_below0T@I"Byebug::Command;TcRDoc::NormalClass0

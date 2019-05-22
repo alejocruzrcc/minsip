@@ -1,0 +1,19 @@
+current directory: /home/lcruz/minsip/byebug/gems/byebug-11.0.1/ext/byebug
+/usr/local/bin/ruby26 -I /usr/local/lib/ruby/site_ruby/2.6 -r ./siteconf20190521-57100-i0dt6x.rb extconf.rb
+creating Makefile
+
+current directory: /home/lcruz/minsip/byebug/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/lcruz/minsip/byebug/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/lcruz/minsip/byebug/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -o root -g bin -m 0755 byebug.so ./.gem.20190521-57100-x8a8ve/byebug
